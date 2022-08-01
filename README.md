@@ -1,9 +1,8 @@
 # 中華古籍知识图谱 Semantic Chinese Classics 
 
-英文版說明請參見[此處](./README.en.md)。
-The english version of README is [here](./README.en.md).
+英文版說明請參見[此處](./README.en.md)。The english version of README is [here](./README.en.md).
 
-**註：**本項目目前處在早期階段，很多內容尚不完善。
+**註：本項目目前處在早期階段，很多內容尚不完善。**
 
 ## 致謝
 
