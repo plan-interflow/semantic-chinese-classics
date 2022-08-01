@@ -1,6 +1,30 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX : <#>
 
-:Source a rdfs:Class .
-:ShugeSource rdf:subclass :Source .
+:作品 a rdfs:Class ;
+      rdfs:comment "某人之某一作品" .
+
+:書 a rdfs:Class ;
+    rdfs:label "書" ;
+    rdfs:subClassOf :作品 ;
+    rdfs:comment "表示一本書" .
+
+:卷 a rdfs:Class ;
+    rdfs:label "卷" ;
+    rdfs:subClassOf :作品 ;
+    rdfs:comment "書之一部分" .
+
+:史書 a rdfs:Class ;
+      rdfs:label "史書" ;
+      rdfs:subClassOf :書 ;
+      rdfs:comment "一本書，且該書記述歷史" .
+
+:名以 a rdf:Property ;
+        rdfs:label "名以" ;
+        rdfs:doamin :作品 ;
+        rdfs:range xsd:string .
+
+:源以 a rdf:Property ;
+        rdfs:domain :作品 .

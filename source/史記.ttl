@@ -1,9 +1,9 @@
 PREFIX sch: <../ontology/sch.ttl#>
 PREFIX : <#>
 
-: a sch:書 ;
+: a sch:史書 ;
     sch:名以 "史記" ;
-    sch:提取自 <https://new.shuge.org/meet/topic/22315/> .
+    sch:源以 <https://new.shuge.org/meet/topic/22315/> .
 
 :1 a sch:卷 ;
    sch:名以 "五帝本紀卷第一" ;
