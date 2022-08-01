@@ -1,0 +1,47 @@
+PREFIX foaf: <https://xmlns.com/foaf/spec/>
+PREFIX sch: <../ontology/sch.ttl#>
+PREFIX : <#>
+
+:1 a foaf:Person ;
+   foaf:name "黃帝" ,
+           "公孫軒轅" ,
+           "軒轅" .
+
+:2 a foaf:Person ;
+   foaf:name "少典" .
+
+:3 a foaf:Person ;
+   foaf:name "蚩尤" .
+
+:4 a foaf:Person ;
+   foaf:name "炎帝" .
+
+:5 a foaf:Person ;
+   foaf:name "蚩尤" .
+
+:6 a foaf:Person ;
+   foaf:name "蚩尤" .
+
+:7 a foaf:Organization ;
+   foaf:name "神農氏" .
+
+:8 a foaf:Persion ;
+   foaf:name "風后" .
+
+:9 a foaf:Persion ;
+   foaf:name "力牧" .
+
+:10 a foaf:Persion ;
+   foaf:name "常先" .
+
+:11 a foaf:Persion ;
+   foaf:name "常先" .
+
+:12 a foaf:Persion ;
+   foaf:name "嫘祖" .
+
+:13 a foaf:Persion ;
+   foaf:name "嫘祖" .
+
+:14 a foaf:Persion ;
+   foaf:name "嫘祖" .

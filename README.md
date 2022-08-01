@@ -1,8 +1,13 @@
-# Semantic Chinese History 中国历史知识图谱
+# 中華古籍知识图谱 Semantic Chinese Classics 
 
-## Initial Decisions 一些初步决策
+英文版說明請參見[此處](./README.en.md)。
+The english version of README is [here](./README.en.md).
 
-1. 收集原始文献并半格式化，便于后续链接
-2. 使用原始正体而非简体
-3. 需要包含不同文献版本
-4. 知识图谱化
+**註：**本項目目前處在早期階段，很多內容尚不完善。
+
+## 致謝
+
+以下項目對於我們的整理校勘工作起到很大幫助，在此表示感謝：
+
+* [書格](https://new.shuge.org/)
+* [維基文庫](https://zh.wikisource.org/)
