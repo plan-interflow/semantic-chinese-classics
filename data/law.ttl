@@ -1,0 +1,206 @@
+PREFIX foaf: <https://xmlns.com/foaf/spec/>
+PREFIX sch: <../ontology/sch.ttl#>
+PREFIX : <#>
+
+:刑
+  a rdfs:Class 
+  rdfs:comment "" .
+
+:赎铜斤数
+  a rdf:Property ;
+  rdfs:domain :刑 ;
+  rdfs:range xsd:positiveInteger .
+
+:笞刑 
+  rdfs:comment "" .
+
+:笞一十
+  a :笞刑 ;
+  :赎铜斤重 1 ; 
+  rdfs:comment "" .
+
+:笞二十
+  a :笞刑 ;
+  :赎铜斤重 2 ; 
+  rdfs:comment "" .
+
+:笞三十
+  a :笞刑 ;
+  :赎铜斤重 3 ; 
+  rdfs:comment "" .
+
+:笞四十
+  a :笞刑 ;
+  :赎铜斤重 4 ; 
+  rdfs:comment "" .
+
+:笞五十
+  a :笞刑 ;
+  :赎铜斤重 5 ; 
+  rdfs:comment "" .
+
+:杖刑
+  rdfs:comment "" .
+
+:杖六十
+  a :杖刑 ;
+  :赎铜斤重 6 ; 
+  rdfs:comment "" .
+
+:杖七十
+  a :杖刑 ;
+  :赎铜斤重 7 ; 
+  rdfs:comment "" .
+
+:杖八十
+  a :杖刑 ;
+  :赎铜斤重 8 ; 
+  rdfs:comment "" .
+
+:杖九十
+  a :杖刑 ;
+  :赎铜斤重 9 ; 
+  rdfs:comment "" .
+
+:杖一百
+  a :杖刑 ;
+  :赎铜斤重 10 ; 
+  rdfs:comment "" .
+
+:徒刑
+  rdfs:comment "" .
+
+:徒一年
+  a :徒刑 ;
+  :赎铜斤重 20 ;
+  rdfs:comment "" .
+
+:徒一年半
+  a :徒刑 ;
+  :赎铜斤重 30 ;
+  rdfs:comment "" .
+
+:徒二年
+  a :徒刑 ;
+  :赎铜斤重 40 ;
+  rdfs:comment "" .
+
+:徒二年半
+  a :徒刑 ;
+  :赎铜斤重 50 ;
+  rdfs:comment "" .
+
+:徒三年
+  a :徒刑 ;
+  :赎铜斤重 60 ;
+  rdfs:comment "" .
+
+:流刑
+  rdfs:comment "" .
+
+:流二千五百里
+  a :流刑 ;
+  :赎铜斤重 90 ;
+  rdfs:comment "" .
+
+:流三千里
+  a :流刑 ;
+  :赎铜斤重 100 ;
+  rdfs:comment "" .
+
+:流二千里
+  a :流刑 ;
+  :赎铜斤重 80 ;
+  rdfs:comment "" .
+
+:死刑
+  rdfs:comment "" .
+
+:绞
+  a :死刑
+  :赎铜斤重 120 ;
+  rdfs:comment "" .
+
+:斩
+  a :死刑
+  :赎铜斤重 120 ;
+  rdfs:comment "" .
+
+:十恶
+  rdfs:comment "" .
+
+:谋反
+  a :十恶 ;
+  rdfs:comment "" .
+
+:谋大逆
+  a :十恶 ;
+  rdfs:comment "" .
+
+:谋叛
+  a :十恶 ;
+  rdfs:comment "" .
+
+:恶逆
+  a :十恶 ;
+  rdfs:comment "" .
+
+:不道
+  a :十恶 ;
+  rdfs:comment "" .
+
+:大不敬
+  a :十恶 ;
+  rdfs:comment "" .
+
+:不孝
+  a :十恶 ;
+  rdfs:comment "" .
+
+:不睦
+  a :十恶 ;
+  rdfs:comment "" .
+
+:不义
+  a :十恶 ;
+  rdfs:comment "" .
+
+:内乱
+  a :十恶 ;
+  rdfs:comment "" .
+
+:八议
+  rdfs:comment "" .
+
+:议亲
+  a :八议 ;
+  rdfs:comment "" .
+
+:议故
+  a :八议 ;
+  rdfs:comment "" .
+
+:议贤
+  a :八议 ;
+  rdfs:comment "" .
+
+:议能
+  a :八议 ;
+  rdfs:comment "" .
+
+:议功
+  a :八议 ;
+  rdfs:comment "" .
+
+:议贵
+  a :八议 ;
+  rdfs:comment "" .
+
+:议勤
+  a :八议 ;
+  rdfs:comment "" .
+
+:议宾
+  a :八议 ;
+  rdfs:comment "" .
+
